@@ -17,15 +17,15 @@ The first one is __Person__ which holds information for a person (Name, Surname,
 The second one is __Page__ which holds information we are using in our html page. (Massage, Persons array).
 
 ### Functions
-**getWorkingDir**: the function that returns the working directory. 
-**main**: registers the two endpoints and also listening at port 8080 for incoming requests
-**indexHandler**: handler for "/" endpoint, adds Message information on html page
-**personsHandler**: handler for "/persons" endpoint, adds a list of Persons on htm page
+**getWorkingDir**: the function that returns the working directory <br/> 
+**main**: registers the two endpoints and also listening at port 8080 for incoming requests <br/>
+**indexHandler**: handler for "/" endpoint, adds Message information on html page <br/>
+**personsHandler**: handler for "/persons" endpoint, adds a list of Persons on htm page <br/>
 
 
 ## HTML file explanation
-Remders a Message inside <h1> tags.
-In case the html was handled by **personsHandler**, the Persons list has values so the html renders the Person struct information
+Remders a Message inside <h1> tags <br/>
+In case the html was handled by **personsHandler** the Persons list has values so the html renders the Person struct information
 
 
 
