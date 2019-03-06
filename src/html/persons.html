@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example in Go!</title>
+</head>
+<body>
+        <h1>{{ .Message }}</h1>
+        <ul>
+            {{range .Persons}}
+                <p>{{ .Name }} {{ .Surname }} {{ .Age }}</p>
+            {{end}}
+        </ul>
+</body>
+</html>
