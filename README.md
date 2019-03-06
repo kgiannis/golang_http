@@ -12,9 +12,9 @@ I am importing the following packages:
 - "os" : for information on local machine, specifically here for finding working folder
 
 #### Structs
-I am going to use two structs. 
-The first one is __Person__ which holds information for a person (Name, Surname, Age). 
-The second one is __Page__ which holds information we are using in our html page. (Massage, Persons array).
+I am going to use two structs. <br/> 
+The first one is __Person__ which holds information for a person (Name, Surname, Age). <br/>
+The second one is __Page__ which holds information we are using in our html page. (Massage, Persons array). <br/>
 
 ### Functions
 | Name                | Description                                                                       |
